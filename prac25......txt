@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        .header {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .nav {
+            text-align: center;
+            background-color: #0066cc;
+            padding: 10px;
+        }
+
+        .nav a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .nav a:hover {
+            background-color: #004080;
+        }
+
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+
+        .footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        @media (max-width: 600px) {
+            .nav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>My Portfolio</h1>
+    </div>
+
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">About Me</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="container">
+        <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+        <h2>John Doe</h2>
+        <p>Web Developer | Designer | Programmer</p>
+        <h3>About Me</h3>
+        <p>I am a passionate web developer with experience in front-end and back-end technologies.</p>
+
+        <h3>Projects</h3>
+        <ul>
+            <li>Project 1 - E-commerce Website</li>
+            <li>Project 2 - Portfolio Website</li>
+            <li>Project 3 - Blog Platform</li>
+        </ul>
+
+        <h3>Contact</h3>
+        <p>Email: johndoe@example.com</p>
+        <p>LinkedIn: linkedin.com/in/johndoe</p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
